@@ -65,7 +65,7 @@
 
 ### Q5. 解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。
 
-* Maturity Level1 - Initial初始级：无序，自发生产模式。软件过程是无序的，有时甚至是混乱的，对过程几乎没有定义，成功取决于个人努力。管理是反应式的。
+* Maturity Level1 - Initial初始级：无序，自发生产模式。软件过程是无序的，有时甚至是混乱的，对过程几乎没有定义，管理是反应式的。
 * Maturity Level 2 - Managed可管理级：建立了基本的项目管理过程来跟踪费用、进度和功能特性。制定了必要的过程纪律，能重复早先类似应用项目取得的成功经验。
 * Maturity Level 3 - Defined 已定义级：已将软件管理和工程两方面的过程文档化、标准化，并综合成该组织的标准软件过程。所有项目均使用经批准、剪裁的标准软件过程来开发和维护软件，软件产品的生产在整个软件过程是可见的。
 * Maturity Level 4 - Quantitatively Managed量化管理级：分析对软件过程和产品质量的详细度量数据，对软件过程和产品都有定量的理解与控制。管理有一个作出结论的客观依据，管理能够在定量的范围内预测性能。
@@ -73,28 +73,28 @@
 
 ### Q6. 用自己语言简述 SWEBok 或 CMMI （约200字）
 SWEBok即软件工程知识体系指南（Guide to the Software Engineering Body of Knowledge)，是一个得到普遍认可的共识性软件工程本体知识结构。
-
-SWEBOK全面描述了软件工程实践所需的知识，为开发本科软件工程教育计划打下了基础。
+该指南的发布使人们达成了共识：建立科学有效的软件工程本体知识结构，以解决软件工程工程师的资格认证、设置并检验软件工程项目难题等问题，为软件工程学科的学习范畴提供统一的认知。一言以蔽之：SWEBok交待了什么是软件工程，软件工程需要学什么和需要做什么。因此，SWEBOK全面描述了软件工程实践所需的知识，为开发本科软件工程教育计划打下了基础，为计算机科学的发展做出了非常大的贡献。
 
 
 二、解释 PSP 各项指标及技能要求：
 阅读《现代软件工程》的 PSP: Personal Software Process 章节。 http://www.cnblogs.com/xinz/archive/2011/11/27/2265425.html。按表格 PSP 2.1
-|PSP2.1|
+
+|PSP2.1||
 |:--------:| ----------- |
 |Planning|计划
-|* Estimate|* 明确需求和其他因素，估计以下的各个任务需要多少时间
-|Development|开发
-|* Analysis|*分析需求
-|* Design Spec|*生成设计文档
-|* Design Review|*设计复审 (和同事审核设计文档)
-|* Coding Standard|*代码规范 (为目前的开发制定合适的规范)
-|* Design|设计
-|* Coding|*具体编码
-|* Code Review|*代码复审
-|* Test|*测试（包括自我测试，修改代码，提交修改）
-| |
-|Record Time Spent|记录时间花费
-|Test Report|测试报告
-|Size Measurement|计算工作量
-|Postmortem|事后总结
-|Process Improvement Plan|提出过程改进计划
+| Estimate| 明确需求和其他因素，估计以下的各个任务需要多少时间
+| Development|开发
+| Analysis| 分析需求
+| Design Spec|生成设计文档 
+| Design Review|设计复审 (和同事审核设计文档) 
+| Coding Standard|代码规范 (为目前的开发制定合适的规范)
+| Design|设计
+| Coding|具体编码
+| Code Review|代码复审
+| Test|测试（包括自我测试，修改代码，提交修改）
+| Record Time Spent|记录时间花费
+| Test Report|测试报告
+| Size Measurement|计算工作量
+| Postmortem|事后总结
+| Process Improvement Plan|提出过程改进计划
+
