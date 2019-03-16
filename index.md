@@ -10,4 +10,4 @@ layout: default
 
 ### HW 1 链接
 
- #### **[HW 1](assignments1)**
+ #### **[HW 1](assignment1)**
