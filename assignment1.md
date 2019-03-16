@@ -78,7 +78,7 @@ SWEBok即软件工程知识体系指南（Guide to the Software Engineering Body
 
 
 二、解释 PSP 各项指标及技能要求：
-阅读《现代软件工程》的 PSP: Personal Software Process 章节。 http://www.cnblogs.com/xinz/archive/2011/11/27/2265425.html。按表格 PSP 2.1
+阅读《现代软件工程》的 PSP: [Personal Software Process 章节](http://www.cnblogs.com/xinz/archive/2011/11/27/2265425.html) 。按表格 PSP 2.1
 
 |PSP2.1||
 |:--------:| ----------- |
