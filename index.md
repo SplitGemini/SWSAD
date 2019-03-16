@@ -1,6 +1,4 @@
----
-layout: default
----
+
 
 ## Software System Analysis and Design Homeworks Page
 {:toc}
