@@ -9,8 +9,7 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
-  position: absolute;
-  left: 0px;
+  float :left;
 }
 
 header {
@@ -24,6 +23,10 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:20px;
+  bottom:0px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+p {
+  margin:0px;
 }
