@@ -3,28 +3,9 @@
 
 @import "{{ site.theme }}";
 
-body {
-  background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
-  float :left;
-}
-
-header {
-  width:270px;
-  float:center;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:0px;
-  -webkit-font-smoothing:subpixel-antialiased;
+.wrapper {
+  width:60px;
+  margin:0 auto;
 }
 
 p {
