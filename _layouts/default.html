@@ -19,10 +19,7 @@
     </script>
   </head>
   <body>
-    <div class="wrapper">
-         <h2>show</h2>
-         <hr />
-		 <div id="btnshow" style="display: none;">
+    <div class="wrapper" id="btnshow" style="display: none;">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
@@ -59,11 +56,10 @@
         {% endif %}
         <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
-	  </div>
     </div>
 	
     <p class="slide">
-       <a href="javascript:divShow();" id="btnhref" class="btn-slide">了解</a>
+       <a href="javascript:divShow();" id="btnhref" class="btn-slide">Show</a>
     </p>
 	
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
