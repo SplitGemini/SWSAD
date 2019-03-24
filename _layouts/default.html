@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="wrapper">
+	<div id="left1" style="display:block">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
@@ -37,19 +38,23 @@
         </ul>
         {% endif %}
       </header>
+	  </div>
       <section>
 
       {{ content }}
 
       </section>
+	  <div id="left2" style="display:block">
       <footer>
         {% if site.github.is_project_page %}
         <small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small><br/>
         {% endif %}
         <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
+	  </div>
     </div>
-	
+	<input type=button value= "显示" onclick='document.getElementById("left1").style.display="block"'>
+<input type=button value= "隐藏" onclick='document.getElementById("left1").style.display="none"'>
 	
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
