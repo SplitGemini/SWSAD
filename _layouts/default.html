@@ -7,7 +7,7 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 	<style>
-	#right{margin:0 auto;width:auto;height:aotu}
+	right{margin:0 auto;width:auto;height:auto}
 	</style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -42,11 +42,13 @@
         {% endif %}
       </header>
 	  </div>
+	  <div id="right">
       <section>
-	<div id="right">
+	
       {{ content }}
-	</div>
-      </section>
+	   </section>
+	  </div>
+     
 	  <div id="left2" style="display:block">
       <footer>
         {% if site.github.is_project_page %}
@@ -62,10 +64,12 @@
      function f1(){ 
 	 document.getElementById("left1").style.display="block";
 	 document.getElementById("left2").style.display="block";
+	 document.getElementById("right").style.display="body";
      }
 	 function f2(){ 
 	 document.getElementById("left1").style.display="none";
 	 document.getElementById("left2").style.display="none";
+	 document.getElementById("right").style.display="right";
      }
 	</script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
