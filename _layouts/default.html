@@ -12,7 +12,6 @@
   </head>
   <body>
     <div class="wrapper">
-	<div id="left1" style="display:block">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
@@ -38,36 +37,18 @@
         </ul>
         {% endif %}
       </header>
-	  </div>
-      <section2 id="right" style="float:right">
+      <section>
 	
       {{ content }}
-	  </section2>
-
-     
-	  <div id="left2" style="display:block">
+	  </section>
       <footer>
         {% if site.github.is_project_page %}
         <small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small><br/>
         {% endif %}
         <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
-	  </div>
     </div>
-	<input type=button value= "显示" onclick='f1()'>
-	<input type=button value= "隐藏" onclick='f2()'>
-	<script>
-     function f1(){ 
-	 document.getElementById("left1").style.display="block";
-	 document.getElementById("left2").style.display="block";
-	 document.getElementById("right").style.cssFloat="right";
-     }
-	 function f2(){ 
-	 document.getElementById("left1").style.display="none";
-	 document.getElementById("left2").style.display="none";
-	 document.getElementById("right").style.cssFloat="center";
-     }
-	</script>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
