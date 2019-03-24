@@ -53,9 +53,18 @@
       </footer>
 	  </div>
     </div>
-	<input type=button value= "显示" onclick='document.getElementById("left1").style.display="block"'>
-<input type=button value= "隐藏" onclick='document.getElementById("left1").style.display="none"'>
-	
+	<input type=button value= "显示" onclick='f1()'>
+	<input type=button value= "隐藏" onclick='f2()'>
+	<script>
+     function f1(){ 
+	 document.getElementById("left1").style.display="block";
+	 document.getElementById("left2").style.display="block";
+     }
+	 function f2(){ 
+	 document.getElementById("left1").style.display="none";
+	 document.getElementById("left2").style.display="none";
+     }
+	</script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
