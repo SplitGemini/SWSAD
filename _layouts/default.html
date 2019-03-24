@@ -39,10 +39,10 @@
         {% endif %}
       </header>
 	  </div>
-      <section id="right">
+      <section2 id="right" style="float:right">
 	
       {{ content }}
-	  </section>
+	  </section2>
 
      
 	  <div id="left2" style="display:block">
@@ -60,12 +60,12 @@
      function f1(){ 
 	 document.getElementById("left1").style.display="block";
 	 document.getElementById("left2").style.display="block";
-	 document.getElementById("right").style.display="section";
+	 document.getElementById("right").style.cssFloat="right";
      }
 	 function f2(){ 
 	 document.getElementById("left1").style.display="none";
 	 document.getElementById("left2").style.display="none";
-	 document.getElementById("right").style.display="section2";
+	 document.getElementById("right").style.cssFloat="center";
      }
 	</script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
