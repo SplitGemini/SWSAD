@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-	<style>
-	right{margin:0 auto;width:auto;height:auto}
-	</style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -42,12 +39,11 @@
         {% endif %}
       </header>
 	  </div>
-	  <div id="right">
-      <section>
+      <section2>
 	
       {{ content }}
-	   </section>
-	  </div>
+	  </section2>
+
      
 	  <div id="left2" style="display:block">
       <footer>
@@ -64,12 +60,10 @@
      function f1(){ 
 	 document.getElementById("left1").style.display="block";
 	 document.getElementById("left2").style.display="block";
-	 document.getElementById("right").style.display="body";
      }
 	 function f2(){ 
 	 document.getElementById("left1").style.display="none";
 	 document.getElementById("left2").style.display="none";
-	 document.getElementById("right").style.display="right";
      }
 	</script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
